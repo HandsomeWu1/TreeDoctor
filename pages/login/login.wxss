@@ -1,0 +1,28 @@
+Page {
+  background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3623231988,3255739154&fm=26&gp=0.jpg");
+  background-size: cover;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: black;
+  font-size: larger;
+}
+
+.usermotto {
+  margin-top: 200px;
+  color: black;
+  font-size: larger;
+  font-weight: 800;
+}

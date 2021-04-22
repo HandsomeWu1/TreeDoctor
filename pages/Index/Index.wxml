@@ -1,0 +1,14 @@
+<view class="box leef" bindtap="camera" style="margin-top:70px">
+  <view class="title">用相机拍摄病虫害作物</view>
+  <view class="info">免费</view>
+</view>
+  <button class="box doctor" style="width:90%;background-color:white" open-type="contact">
+    <view class="title">农业专家连线</view>
+    <view class="info">免费</view>
+  </button>
+<view class="box report" bindtap="GoPage" data-path="../report/report">
+  <view class="title">作物健康报告</view>
+</view>
+<view class="box shop" style="margin-bottom:30px" bindtap="GoPage" data-path="../shop/shop">
+  <view class="title">农业商城</view>
+</view>

@@ -1,0 +1,53 @@
+Page{
+  background-color: #57d4d2;
+}
+.btn{
+  width: 200%;
+}
+.box{
+  width: 90%;
+  height: 150px;
+  background-color: grey;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 5%;
+  position: relative;
+}
+
+.leef{
+  background-image: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2238085802,2449602815&fm=26&gp=0.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.title{
+  position: absolute;
+  font-size: larger;
+  font-weight: 700;
+  bottom: 40px;
+  left: 20px;
+}
+
+.info{
+  position: absolute;
+  bottom: 20px;
+  font-size: small;
+  left: 20px;
+}
+
+.doctor{
+  background-image: url("http://chuantu.xyz/t6/741/1616487903x1954578524.png");
+  background-size: contain;
+  color: black;
+}
+
+.report{
+  background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2614779444,1359714978&fm=26&gp=0.jpg");
+  background-size: cover;
+  color: white;
+}
+.shop{
+  background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3387484406,77855128&fm=26&gp=0.jpg");
+  background-size: cover;
+  color: white;
+}

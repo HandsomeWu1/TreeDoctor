@@ -1,0 +1,34 @@
+<view class="box">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <view class="right">用户名：{{userInfo.nickName}}</view>
+</view>
+<view class="solids-bottom padding-xs flex align-center">
+    <view class="flex-sub text-center">
+      <view class="solid-bottom text-xl padding">
+        <text class="text-black text-bold left">本月第一次提交</text>
+      </view>
+    </view>
+  </view>
+
+<view class="padding bg-white ">
+  <view class="flex margin-top">
+    <text class="cuIcon-title text-blue"></text>
+    <view style="width:90px">综合得分</view>
+    <view class="cu-progress round">
+      <view class="bg-green" style="width:87%;"></view>
+    </view>
+    <text class="margin-left">87</text>
+  </view>
+</view>
+<view class="padding bg-white ">
+  <view class="flex margin-top">
+    <text class="cuIcon-title text-blue"></text>
+    <view style="width:90px">严重程度</view>
+    <view class="cu-progress round">
+      <view class="bg-green" style="width:20%;"></view>
+    </view>
+    <text class="margin-left" style="width:50px">轻度</text>
+  </view>
+</view>
+
+<!-- 相关营养液推荐 -->
